@@ -18,6 +18,22 @@
         }
     </style>
     <style>
+        /* ── Trabajos Recientes: imágenes uniformes ── */
+        .team-thumb {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .team-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+    </style>
+    <style>
         .btn-tel {
             display: block;
             width: 70px;
@@ -30,6 +46,12 @@
             line-height: 80px;
             text-align: center;
             z-index: 999;
+        }
+    </style>
+    <style>
+        /* Oscurecer las imágenes del banner principal para que resalte el texto */
+        #rev_slider_one .tp-bgimg {
+            filter: brightness(0.4) !important;
         }
     </style>
     <meta charset="utf-8">
@@ -279,12 +301,12 @@
                         <!-- SLIDE 1 -->
                         <li data-index="rs-70" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                            data-masterspeed="300" data-thumb="images/slider1-home1-1.jpg" data-rotate="0"
+                            data-masterspeed="300" data-thumb="images/proyectos/fachadas/fachadas-23.JPG" data-rotate="0"
                             data-saveperformance="off" data-title="" data-param1="1" data-param2="" data-param3=""
                             data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
                             data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="images/slider1-home1-1.jpg" data-bgcolor='rgba(255,255,255,0)' style='' alt=""
+                            <img src="images/proyectos/fachadas/fachadas-23.JPG" data-bgcolor='rgba(255,255,255,0)' style='filter: brightness(50%);' alt=""
                                 data-bgposition="center center" data-bgfit="cover" class="rev-slidebg"
                                 data-bgrepeat="no-repeat" data-bgparallax="off" data-no-retina>
 
@@ -345,12 +367,12 @@
                         <!-- SLIDE 1 -->
                         <li data-index="rs-71" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                            data-masterspeed="300" data-thumb="images/slider2-home1-1.jpg" data-rotate="0"
+                            data-masterspeed="300" data-thumb="images/proyectos/canceles/canceles-de-banio-9.JPG" data-rotate="0"
                             data-saveperformance="off" data-title="" data-param1="1" data-param2="" data-param3=""
                             data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
                             data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="images/slider2-home1-1.jpg" data-bgcolor='#ffffff' style='' alt=""
+                            <img src="images/proyectos/canceles/canceles-de-banio-9.JPG" data-bgcolor='#ffffff' style='filter: brightness(50%);' alt=""
                                 data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                 class="rev-slidebg" data-bgparallax="off" data-no-retina>
 
@@ -407,12 +429,12 @@
                         <!-- SLIDE 1 -->
                         <li data-index="rs-72" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                             data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                            data-masterspeed="300" data-thumb="images/slider3-home1-1.jpg" data-rotate="0"
+                            data-masterspeed="300" data-thumb="images/proyectos/puertas/puerts-y-ventanas-28.JPG" data-rotate="0"
                             data-saveperformance="off" data-title="" data-param1="1" data-param2="" data-param3=""
                             data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
                             data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="images/slider3-home1-1.jpg" data-bgcolor='#ffffff' style='' alt=""
+                            <img src="images/proyectos/puertas/puerts-y-ventanas-28.JPG" data-bgcolor='#ffffff' style='filter: brightness(50%);' alt=""
                                 data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                 class="rev-slidebg" data-bgparallax="off" data-no-retina>
 
@@ -603,7 +625,7 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/ventanas1.jpg" alt="ventanasypuertas.html" border="0">
+                                    <img src="images/ventanas/2.jpg" alt="Ventanas de aluminio">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
@@ -622,7 +644,8 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/corrediza.jpg" alt="Puerta Corrediza">
+                                    <img src="images/proyectos/puertas/puerts-y-ventanas-21.jpg"
+                                        alt="Puertas de aluminio">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
@@ -641,7 +664,7 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/canceles.jpg" alt="Canceles de baño">
+                                    <img src="images/proyectos/canceles/canceles-baño.jpg" alt="Canceles de baño">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
@@ -660,7 +683,7 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/domos.jpg" alt="Domos de policarbonato">
+                                    <img src="images/proyectos/domos/domos-2.jpg" alt="Domos de cristal templado">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
@@ -679,7 +702,7 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/fachadas.jpg" alt="Amalia Bruno">
+                                    <img src="images/proyectos/fachadas/fachadas-10.jpg" alt="Fachadas integrales">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
@@ -747,7 +770,7 @@
                     <div class="col-lg-8 col-md-8">
                         <div class="video-wrapper" id="videoPreview" style="cursor: pointer; position: relative;">
                             <video id="previewVideo" autoplay muted loop playsinline>
-                                <source src="images/video/Jaba video 12.mp4" type="video/mp4">
+                                <source src="images/video/Jaba-video-12.mp4" type="video/mp4">
                                 Tu navegador no soporta el elemento de video.
                             </video>
                         </div>

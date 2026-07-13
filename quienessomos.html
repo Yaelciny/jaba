@@ -2,36 +2,52 @@
 <html lang="en">
 
 <head>
-<style>
-.btn-whatsapp {
-       display:block;
-       width:70px;
-       height:140px;
-       color:#fff;
-       position: fixed;
-       right:20px;
-       bottom:20px;
-       border-radius:50%;
-       line-height:80px;
-       text-align:center;
-       z-index:999;
-}                          
-</style>
-<style>
-.btn-tel {
-       display:block;
-       width:70px;
-       height:240px;
-       color:#fff;
-       position: fixed;
-       right:20px;
-       bottom:20px;
-       border-radius:50%;
-       line-height:80px;
-       text-align:center;
-       z-index:999;
-}                          
-</style>
+    <style>
+        .btn-whatsapp {
+            display: block;
+            width: 70px;
+            height: 140px;
+            color: #fff;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            border-radius: 50%;
+            line-height: 80px;
+            text-align: center;
+            z-index: 999;
+        }
+    </style>
+    <style>
+        /* ── Trabajos Recientes: imágenes uniformes ── */
+        .team-thumb {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .team-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+    </style>
+    <style>
+        .btn-tel {
+            display: block;
+            width: 70px;
+            height: 240px;
+            color: #fff;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            border-radius: 50%;
+            line-height: 80px;
+            text-align: center;
+            z-index: 999;
+        }
+    </style>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -51,52 +67,56 @@
 </head>
 
 <body>
-<div class="btn-tel">
-<a href="tel:3319777605 " target="_blank">
-<img src="tel.png">
-</a>
-</div>
-<div class="btn-whatsapp">                     
-<a href="https://api.whatsapp.com/send?phone=523319777605 " target="_blank">
-<img src="whatsapp.png" alt="">
-</a>
-</div>
-<!-- Codigo facebook ventana -->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0" nonce="dQkNJPu5"></script>
+    <div class="btn-tel">
+        <a href="tel:3319777605 " target="_blank">
+            <img src="tel.png">
+        </a>
+    </div>
+    <div class="btn-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=523319777605 " target="_blank">
+            <img src="whatsapp.png" alt="">
+        </a>
+    </div>
+    <!-- Codigo facebook ventana -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0"
+        nonce="dQkNJPu5"></script>
     <div id="royal_preloader"></div>
     <div id="page" class="site">
-	
-	
-   
-    <div id="page" class="site">
-        
 
-<!-- ========================================================================================= -->
-<!-- =============================== ENCABEZADO / HEADER PRINCIPAL                           =============================== -->
-<!-- ========================================================================================= -->
-<header id="site-header" class="site-header header-transparent">
-            <!-- Main Header start -->
-            <div class="octf-main-header is-fixed">
-                <div class="octf-area-wrap">
-                    <div class="container-fluid octf-mainbar-container">
-                        <div class="octf-mainbar">
-                            <div class="octf-mainbar-row octf-row">
-                                <div class="octf-col logo-col no-padding">
-                                    <div id="site-logo" class="site-logo">
-                                        <a href="index.html">
-                                            <img src="images/logo.jpg" alt="Jaba" class="">
-                                        </a>
+
+
+        <div id="page" class="site">
+
+
+            <!-- ========================================================================================= -->
+            <!-- =============================== ENCABEZADO / HEADER PRINCIPAL                           =============================== -->
+            <!-- ========================================================================================= -->
+            <header id="site-header" class="site-header header-transparent">
+                <!-- Main Header start -->
+                <div class="octf-main-header is-fixed">
+                    <div class="octf-area-wrap">
+                        <div class="container-fluid octf-mainbar-container">
+                            <div class="octf-mainbar">
+                                <div class="octf-mainbar-row octf-row">
+                                    <div class="octf-col logo-col no-padding">
+                                        <div id="site-logo" class="site-logo">
+                                            <a href="index.html">
+                                                <img src="images/logo.jpg" alt="Jaba" class="">
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="octf-col menu-col no-padding">
-                                    <nav id="site-navigation" class="main-navigation">
-                                        <ul class="menu">
-                                            <li class="menu-item-has-children current-menu-item current-menu-ancestor">
-                                               <li><a href="index.html">Inicio</a></li>
+                                    <div class="octf-col menu-col no-padding">
+                                        <nav id="site-navigation" class="main-navigation">
+                                            <ul class="menu">
+                                                <li
+                                                    class="menu-item-has-children current-menu-item current-menu-ancestor">
+                                                <li><a href="index.html">Inicio</a></li>
                                                 <li><a href="quienessomos.html">Quiénes Somos</a></li>
-                                            <li class="menu-item-has-children current-menu-item current-menu-ancestor"><a href="#">Productos</a>
-                                                <ul class="sub-menu">
+                                                <li
+                                                    class="menu-item-has-children current-menu-item current-menu-ancestor">
+                                                    <a href="#">Productos</a>
+                                                    <ul class="sub-menu">
                                                         <li><a href="ventanasypuertas.html">Ventanas</a></li>
                                                         <li><a href="puertascorredizas.html">Puertas</a></li>
                                                         <li><a href="domos.html">Domos</a></li>
@@ -104,62 +124,63 @@
                                                         <li><a href="fachadasintegrales.html">Fachadas</a></li>
                                                         <li><a href="pergolados.html">Pergolados</a></li>
                                                         <li><a href="divisiones.html">Divisiones de oficina</a></li>
-                                                        <li><a href="sistemasdecristaltemplado.html">Sistemas de cristal templado</a></li>
+                                                        <li><a href="sistemasdecristaltemplado.html">Sistemas de cristal
+                                                                templado</a></li>
                                                         <li><a href="puertasabatibles.html">Puertas abatibles</a></li>
                                                     </ul>
-                                            </li>
-                                               <li><a href="proyecto.html">Proyectos</a> </li>                                                
-                                                        <li><a href="soluciones.html">Soluciones</a> </li>                                                                                                                      
-                                               <li><a href="contact.html">Contacto</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="octf-col cta-col text-right no-padding">
-                                <!-- Call To Action -->
-                                    <div class="octf-btn-cta">
+                                                </li>
+                                                <li><a href="proyecto.html">Proyectos</a> </li>
+                                                <li><a href="soluciones.html">Soluciones</a> </li>
+                                                <li><a href="contact.html">Contacto</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="octf-col cta-col text-right no-padding">
+                                        <!-- Call To Action -->
+                                        <div class="octf-btn-cta">
 
-                                        <div class="octf-cart octf-cta-header">
-                                            
-                    
-                                            <div class="site-header-cart">
-                                                <div class="widget woocommerce widget_shopping_cart">
-                                                    <div class="widget_shopping_cart_content">
-                                                       
+                                            <div class="octf-cart octf-cta-header">
+
+
+                                                <div class="site-header-cart">
+                                                    <div class="widget woocommerce widget_shopping_cart">
+                                                        <div class="widget_shopping_cart_content">
+
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>  
-                                        </div>
-
-                                        
-
-                                        <div class="octf-sidepanel octf-cta-header">
-                                            <div class="site-overlay panel-overlay"></div>
-                                            <div id="panel-btn" class="panel-btn octf-cta-icons">
-                                                <i class="ot-flaticon-menu"></i>
                                             </div>
+
+
+
+                                            <div class="octf-sidepanel octf-cta-header">
+                                                <div class="site-overlay panel-overlay"></div>
+                                                <div id="panel-btn" class="panel-btn octf-cta-icons">
+                                                    <i class="ot-flaticon-menu"></i>
+                                                </div>
+                                            </div>
+
                                         </div>
-                                        
-                                    </div>                              
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="header_mobile">
-                <div class="container-fluid">
-                    <div class="octf-mainbar-row octf-row">
-                        <div class="octf-col">
-                            <div class="mlogo_wrapper clearfix">
-                                <div class="mobile_logo">
-                                    <a href="index.html">
-                                        <img src="images/logo.jpg" alt="Theratio">
-                                    </a>
+                <div class="header_mobile">
+                    <div class="container-fluid">
+                        <div class="octf-mainbar-row octf-row">
+                            <div class="octf-col">
+                                <div class="mlogo_wrapper clearfix">
+                                    <div class="mobile_logo">
+                                        <a href="index.html">
+                                            <img src="images/logo.jpg" alt="Theratio">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="octf-col justify-content-end">
-                           
+                            <div class="octf-col justify-content-end">
+
                             </div>
                             <div class="octf-menu-mobile octf-cta-header">
                                 <div id="mmenu-toggle" class="mmenu-toggle">
@@ -173,9 +194,11 @@
                                             <ul id="menu-main-menu" class="mobile_mainmenu none-style">
                                                 <li><a href="index.html">Inicio</a></li>
                                                 <li><a href="quienessomos.html">Quiénes Somos</a></li>
-                                             
-											 <li class="menu-item-has-children current-menu-item current-menu-ancestor"><a href="#">Productos</a>
-                                                <ul class="sub-menu">
+
+                                                <li
+                                                    class="menu-item-has-children current-menu-item current-menu-ancestor">
+                                                    <a href="#">Productos</a>
+                                                    <ul class="sub-menu">
                                                         <li><a href="ventanasypuertas.html">Ventanas</a></li>
                                                         <li><a href="puertascorredizas.html">Puertas</a></li>
                                                         <li><a href="domos.html">Domos</a></li>
@@ -183,13 +206,14 @@
                                                         <li><a href="fachadasintegrales.html">Fachadas</a></li>
                                                         <li><a href="pergolados.html">Pergolados</a></li>
                                                         <li><a href="divisiones.html">Divisiones de oficina</a></li>
-                                                        <li><a href="sistemasdecristaltemplado.html">Sistemas de cristal templado</a></li>
+                                                        <li><a href="sistemasdecristaltemplado.html">Sistemas de cristal
+                                                                templado</a></li>
                                                         <li><a href="puertasabatibles.html">Puertas abatibles</a></li>
                                                     </ul>
-                                            </li>
-                                               <li><a href="proyecto.html">Proyectos</a> </li>                                                
-                                                        <li><a href="soluciones.html">Soluciones</a> </li>                                                                                                                        
-                                               <li><a href="contact.html">Contacto</a></li>
+                                                </li>
+                                                <li><a href="proyecto.html">Proyectos</a> </li>
+                                                <li><a href="soluciones.html">Soluciones</a> </li>
+                                                <li><a href="contact.html">Contacto</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -198,9 +222,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
         </header>
-<!-- =============================== FIN: ENCABEZADO / HEADER PRINCIPAL                      =============================== -->
+        <!-- =============================== FIN: ENCABEZADO / HEADER PRINCIPAL                      =============================== -->
 
 
 
@@ -209,9 +233,9 @@
             <div class="side-panel-block">
                 <div class="side-panel-wrap">
                     <div class="the-logo">
-                                          
+
                     </div>
-                   
+
                     <div class="ot-heading ">
                         <h2 class="main-heading">Contacto Información</h2>
                     </div>
@@ -219,13 +243,14 @@
                         <ul class="panel-cinfo">
                             <li class="panel-list-item">
                                 <span class="panel-list-icon"><i class="ot-flaticon-place"></i></span>
-                                <span class="panel-list-text">Avenida 8 de Julio #3908. Colonia Balcones del 4. Guadalajara, Jalisco, México. C.P. 44984</span>
+                                <span class="panel-list-text">Avenida 8 de Julio #3908. Colonia Balcones del 4.
+                                    Guadalajara, Jalisco, México. C.P. 44984</span>
                             </li>
                             <li class="panel-list-item">
                                 <span class="panel-list-icon"><i class="ot-flaticon-mail"></i></span>
-                               <span class="panel-list-text">presupuestos@jaba.com.mx</span>
-								
-								
+                                <span class="panel-list-text">presupuestos@jaba.com.mx</span>
+
+
                             </li>
                             <li class="panel-list-item">
                                 <span class="panel-list-icon"><i class="ot-flaticon-phone-call"></i></span>
@@ -235,13 +260,15 @@
                     </div>
                     <div class="side-panel-social">
                         <ul>
-                           
-                              <li><a href="https://www.facebook.com/share/1HGhDt7xgA/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                          
-                            <li><a href="https://www.instagram.com/solucionesjabamx/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							
-							 <a href="https://www.tiktok.com/@soluciones_jaba1"><img src="images/tiktok2.png"></a>
-							
+
+                            <li><a href="https://www.facebook.com/share/1HGhDt7xgA/?mibextid=wwXIfr" target="_blank"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/solucionesjabamx/?hl=es-la" target="_blank"><i
+                                        class="fab fa-instagram"></i></a></li>
+
+                            <a href="https://www.tiktok.com/@soluciones_jaba1"><img src="images/tiktok2.png"></a>
+
                         </ul>
                     </div>
                 </div>
@@ -253,23 +280,23 @@
                 <div class="dcell">
                     <div class="container">
                         <h1 class="page-title">Quiénes Somos</h1>
-                          
+
                     </div>
                 </div>
             </div>
         </div>
 
-        
 
-<!-- ========================================================================================= -->
-<!-- =============================== SECCIÓN: NOSOTROS / ACERCA DE                           =============================== -->
-<!-- ========================================================================================= -->
-<section class="about-company">
+
+        <!-- ========================================================================================= -->
+        <!-- =============================== SECCIÓN: NOSOTROS / ACERCA DE                           =============================== -->
+        <!-- ========================================================================================= -->
+        <section class="about-company">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 align-self-center text-center mb-5 mb-lg-0">
                         <div class="about-img">
-                            <img src="images/quienessomos/qs2.png" alt="">
+                            <img src="images/proyectos/fachadas/fachadas-12.webp" alt="" style="width: 100%; object-fit: cover; border-radius: 10px;">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 align-self-center">
@@ -278,21 +305,23 @@
                                 <span>Soluciones Jaba</span>
                                 <h2 class="main-heading">QUIÉNES SOMOS</h2>
                             </div>
-                            <p>Somos una empresa con más de 10 años de experiencia en la Ciudad de Guadalajara. Ofrecemos soluciones integrales en aluminio y vidrio de alta calidad para toda clase de proyectos de construcción o remodelaciones. </p>
-							
-							<div id="tab-1" class="tab-content current">
-							
-                                    <ul>
-									<p><strong>Soluciones: </strong></p>
-                                        <li>Ventanas de Aluminio</li>
-                                        <li>Puertas de Aluminio</li>
-                                        <li>Puertas Corredizas</li>
-                                        <li>Domos de Policarbonato</li>
-										<li>Domos de Cristal</li>
-										<li>Canceles de baño</li>
-										<li>Diseños Vanguardistas</li>
-                                    </ul>
-                          </div>
+                            <p>Somos una empresa con más de 10 años de experiencia en la Ciudad de Guadalajara.
+                                Ofrecemos soluciones integrales en aluminio y vidrio de alta calidad para toda clase de
+                                proyectos de construcción o remodelaciones. </p>
+
+                            <div id="tab-1" class="tab-content current">
+
+                                <ul>
+                                    <p><strong>Soluciones: </strong></p>
+                                    <li>Ventanas de Aluminio</li>
+                                    <li>Puertas de Aluminio</li>
+                                    <li>Puertas Corredizas</li>
+                                    <li>Domos de Policarbonato</li>
+                                    <li>Domos de Cristal</li>
+                                    <li>Canceles de baño</li>
+                                    <li>Diseños Vanguardistas</li>
+                                </ul>
+                            </div>
                             <div class="ot-button">
                                 <a href="contact.html" class="octf-btn octf-btn-dark border-hover-dark">Contáctanos</a>
                             </div>
@@ -301,21 +330,21 @@
                 </div>
             </div>
         </section>
-<!-- =============================== FIN: SECCIÓN DE CONTENIDO                               =============================== -->
+        <!-- =============================== FIN: SECCIÓN DE CONTENIDO                               =============================== -->
 
 
-        
 
-<!-- ========================================================================================= -->
-<!-- =============================== SECCIÓN DE CONTENIDO                                    =============================== -->
-<!-- ========================================================================================= -->
-<section class="our-philosophy">
+
+        <!-- ========================================================================================= -->
+        <!-- =============================== SECCIÓN DE CONTENIDO                                    =============================== -->
+        <!-- ========================================================================================= -->
+        <section class="our-philosophy">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 theratio-align-center text-center">
                         <div class="ot-heading is-dots">
-                          
-                           
+
+
                         </div>
                     </div>
                 </div>
@@ -325,8 +354,11 @@
                             <div class="inner-box">
                                 <div class="overlay flex-middle">
                                     <div class="inner">
-                                        <p>Proporcionar a nuestros clientes las mejores opciones del mercado en diseño, fabricación e instalación de aluminio con materiales de calidad garantizada, precios accesibles y con un alto sentido de responsabilidad en los tiempos de entrega, hasta asegurarnos de su entera satisfacción.
-</p>
+                                        <p>Proporcionar a nuestros clientes las mejores opciones del mercado en diseño,
+                                            fabricación e instalación de aluminio con materiales de calidad garantizada,
+                                            precios accesibles y con un alto sentido de responsabilidad en los tiempos
+                                            de entrega, hasta asegurarnos de su entera satisfacción.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="content-box">
@@ -334,7 +366,7 @@
                                         <span class="ot-flaticon-brickwall"></span>
                                         <h5>NUESTRA MISIÓN</h5>
                                     </div>
-                                    <img src="images/quienessomos/support1.jpg" alt="">
+                                    <img src="images/proyectos/canceles/canceles-de-banio-16.JPG" alt="" style="width: 100%; height: 250px; object-fit: cover;">
                                 </div>
                             </div>
                         </div>
@@ -344,17 +376,19 @@
                             <div class="inner-box">
                                 <div class="overlay flex-middle">
                                     <div class="inner">
-                                        <p>Ser una empresa reconocida en la industria de la construcción residencial y comercial local por anteponer y dar cumplimiento a los requisitos del cliente y desarrollar a su personal.
-</p>
+                                        <p>Ser una empresa reconocida en la industria de la construcción residencial y
+                                            comercial local por anteponer y dar cumplimiento a los requisitos del
+                                            cliente y desarrollar a su personal.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="content-box">
                                     <div class="icon-title">
-                                         <span class="ot-flaticon-paint"></span>
-                                         <h5>NUESTRA VISIÓN
-</h5>
+                                        <span class="ot-flaticon-paint"></span>
+                                        <h5>NUESTRA VISIÓN
+                                        </h5>
                                     </div>
-                                    <img src="images/quienessomos/support2.jpg" class="" alt="">
+                                    <img src="images/proyectos/domos/domos-11.jpg" class="" alt="" style="width: 100%; height: 250px; object-fit: cover;">
                                 </div>
                             </div>
                         </div>
@@ -364,16 +398,21 @@
                             <div class="inner-box">
                                 <div class="overlay flex-middle">
                                     <div class="inner">
-                                        <p>Convicción y compromiso de satisfacer y superar las expectativas de nuestros clientes internos y externos impulsando una cultura de calidad basada en nuestros valores y la mejora continua de nuestros procesos de diseño, fabricación e instalación de aluminio, vidrio, canceles de baño y domos de policarbonato.
-</p>
+                                        <p>Convicción y compromiso de satisfacer y superar las expectativas de nuestros
+                                            clientes internos y externos impulsando una cultura de calidad basada en
+                                            nuestros valores y la mejora continua de nuestros procesos de diseño,
+                                            fabricación e instalación de aluminio, vidrio, canceles de baño y domos de
+                                            policarbonato.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="content-box">
                                     <div class="icon-title">
-                                         <span class="ot-flaticon-cube"></span>
-                                         <h5>POLÍTICA DE CALIDAD</h5>
+                                        <span class="ot-flaticon-cube"></span>
+                                        <h5>POLÍTICA DE CALIDAD</h5>
                                     </div>
-                                    <img src="images/quienessomos/support3.jpg" class="attachment-full size-full lazyloaded" alt="">
+                                    <img src="images/proyectos/fachadas/fachadas-4.JPG"
+                                        class="attachment-full size-full lazyloaded" alt="" style="width: 100%; height: 250px; object-fit: cover;">
                                 </div>
                             </div>
                         </div>
@@ -381,17 +420,17 @@
                 </div>
             </div>
         </section>
-<!-- =============================== FIN: SECCIÓN DE CONTENIDO                               =============================== -->
+        <!-- =============================== FIN: SECCIÓN DE CONTENIDO                               =============================== -->
 
 
-       
-        
-      
 
-<!-- ========================================================================================= -->
-<!-- =============================== SECCIÓN: NOSOTROS / ACERCA DE                           =============================== -->
-<!-- ========================================================================================= -->
-<section class="about-team">
+
+
+
+        <!-- ========================================================================================= -->
+        <!-- =============================== SECCIÓN: NOSOTROS / ACERCA DE                           =============================== -->
+        <!-- ========================================================================================= -->
+        <section class="about-team">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -406,17 +445,18 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/ventanas1.jpg" alt="ventanasypuertas.html" border="0">                                </div>
+                                    <img src="images/proyectos/puertas/puerts-y-ventanas-1.jpg" alt="Ventanas de aluminio">
+                                </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
                                             <h4 class="m_name"><a href="ventanasypuertas.html">Ventanas</a></h4>
                                             <div class="team-social flex-middle">
-                                                
-                                                
-                                            </div>  
+
+
+                                            </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -424,18 +464,18 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/corrediza.jpg" alt="Puerta Corrediza">
+                                    <img src="images/proyectos/puertas/puerts-y-ventanas-2.JPG" alt="Puertas de aluminio">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
                                             <h4 class="m_name"><a href="ventanasypuertas.html">Puertas</a></h4>
                                             <div class="team-social flex-middle">
-                                              
-                                                
-                                            </div>  
+
+
+                                            </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -443,18 +483,18 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/canceles.jpg" alt="Canceles de baño">
+                                    <img src="images/proyectos/canceles/canceles-de-banio-2.jpg" alt="Canceles de baño">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
                                             <h4 class="m_name"><a href="cancelesdebaño.html">Canceles de baño </a></h4>
                                             <div class="team-social flex-middle">
-                                                
-                                                
-                                            </div>  
+
+
+                                            </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -462,18 +502,18 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/domos.jpg" alt="Domos de policarbonato">
+                                    <img src="images/proyectos/domos/domos-2.jpg" alt="Domos de cristal templado">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
                                             <h4 class="m_name"><a href="domos.html">Domos</a></h4>
                                             <div class="team-social flex-middle">
-                                               
-                                                
-                                            </div>  
+
+
+                                            </div>
                                         </div>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -481,79 +521,83 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/quienessomos/fachadas.jpg" alt="Amalia Bruno">
+                                    <img src="images/proyectos/fachadas/fachadas-10.jpg" alt="Fachadas integrales">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
                                             <h4 class="m_name"><a href="fachadasintegrales.html">Fachadas</a></h4>
                                             <div class="team-social flex-middle">
-                                                
-                                               
-                                            </div>  
+
+
+                                            </div>
                                         </div>
-                                       
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
         </section>
-<!-- =============================== FIN: SECCIÓN DE CONTENIDO                               =============================== -->
+        <!-- =============================== FIN: SECCIÓN DE CONTENIDO                               =============================== -->
 
 
-       
-    
 
-<!-- ========================================================================================= -->
-<!-- =============================== PIE DE PÁGINA / FOOTER                                  =============================== -->
-<!-- ========================================================================================= -->
-<footer id="site-footer" class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
-                    <div class="widget-footer">
-                        <img src="images/logoblanco.png" class="footer-logo" alt="">
-                          <p>Soluciones Jaba</br>Cristales y Aluminio</p>
-                        <div class="footer-social list-social">
-                            <ul>
-                             
-  <li><a href="https://www.facebook.com/share/1HGhDt7xgA/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            
-                            <li><a href="https://www.instagram.com/solucionesjabamx/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							
-							 <a href="https://www.tiktok.com/@soluciones_jaba1"><img src="images/tiktok2.png"></a>							
+
+
+        <!-- ========================================================================================= -->
+        <!-- =============================== PIE DE PÁGINA / FOOTER                                  =============================== -->
+        <!-- ========================================================================================= -->
+        <footer id="site-footer" class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
+                        <div class="widget-footer">
+                            <img src="images/logoblanco.png" class="footer-logo" alt="">
+                            <p>Soluciones Jaba</br>Cristales y Aluminio</p>
+                            <div class="footer-social list-social">
+                                <ul>
+
+                                    <li><a href="https://www.facebook.com/share/1HGhDt7xgA/?mibextid=wwXIfr"
+                                            target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+
+                                    <li><a href="https://www.instagram.com/solucionesjabamx/?hl=es-la"
+                                            target="_blank"><i class="fab fa-instagram"></i></a></li>
+
+                                    <a href="https://www.tiktok.com/@soluciones_jaba1"><img
+                                            src="images/tiktok2.png"></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
+                        <div class="widget-footer">
+                            <h6>Contacto</h6>
+                            <ul class="footer-list">
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-place"></i></span>
+                                    <span class="list-item-text">Avenida 8 de Julio #3908. Colonia Balcones del 4.
+                                        Guadalajara, Jalisco, México. C.P. 44984</span>
+                                </li>
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-mail"></i></span>
+                                    <span class="list-item-text">presupuestos@jaba.com.mx</span>
+
+                                </li>
+
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-phone-call"></i></span>
+                                    <span class="list-item-text">33 1977 7605 / 33 1975 3530</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
-                    <div class="widget-footer">
-                        <h6>Contacto</h6>
-                        <ul class="footer-list">
-                            <li class="footer-list-item">
-                                <span class="list-item-icon"><i class="ot-flaticon-place"></i></span>
-                                <span class="list-item-text">Avenida 8 de Julio #3908. Colonia Balcones del 4. Guadalajara, Jalisco, México. C.P. 44984</span>
-                            </li>
-                            <li class="footer-list-item">
-                                <span class="list-item-icon"><i class="ot-flaticon-mail"></i></span>
-                               <span class="list-item-text">presupuestos@jaba.com.mx</span>
-								
-                            </li>
-							
-                            <li class="footer-list-item">
-                                <span class="list-item-icon"><i class="ot-flaticon-phone-call"></i></span>
-                                <span class="list-item-text">33 1977 7605 / 33 1975 3530</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
-                    <div class="widget-footer widget-contact">
-                        <h6>Nuestos Servicios</h6>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
+                        <div class="widget-footer widget-contact">
+                            <h6>Nuestos Servicios</h6>
                             <ul>
                                 <li><a href="quienessomos.html">Quiénes Somos</a></li>
                                 <li><a href="ventanasypuertas.html">Ventanas</a></li>
@@ -568,49 +612,51 @@
                                 <li><a href="soluciones.html">Soluciones</a></li>
                                 <li><a href="contact.html">Contacto</a></li>
                             </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div class="widget-footer">
-                        <div id="fb-root"></div>
-                        <script async defer crossorigin="anonymous"
-                            src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v23.0">
-                            </script>
-
-                        <div class="fb-page" data-href="https://www.facebook.com/solucionesjaba26" data-tabs="timeline"
-                            data-width="350" data-height="450" data-small-header="false"
-                            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                            <blockquote cite="https://www.facebook.com/solucionesjaba26" class="fb-xfbml-parse-ignore">
-                                <a href="https://www.facebook.com/solucionesjaba26">
-                                    Soluciones JABA
-                                </a>
-                            </blockquote>
                         </div>
                     </div>
-                </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="widget-footer">
+                            <div id="fb-root"></div>
+                            <script async defer crossorigin="anonymous"
+                                src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v23.0">
+                                </script>
 
-				
-				
-				
-        </div>
-    </footer>
-<!-- =============================== FIN: PIE DE PÁGINA / FOOTER                             =============================== -->
+                            <div class="fb-page" data-href="https://www.facebook.com/solucionesjaba26"
+                                data-tabs="timeline" data-width="350" data-height="450" data-small-header="false"
+                                data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/solucionesjaba26"
+                                    class="fb-xfbml-parse-ignore">
+                                    <a href="https://www.facebook.com/solucionesjaba26">
+                                        Soluciones JABA
+                                    </a>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
 
-<!-- #site-footer -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
-                    <p>Copyright © Jaba. All Rights Reserved.</p>
+
+
+
                 </div>
-                
+        </footer>
+        <!-- =============================== FIN: PIE DE PÁGINA / FOOTER                             =============================== -->
+
+        <!-- #site-footer -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
+                        <p>Copyright © Jaba. All Rights Reserved.</p>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
-</div><!-- #page -->
-<a id="back-to-top" href="#" class="show"><i class="ot-flaticon-left-arrow"></i></a>
-        <!-- jQuery -->
-		<script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/395060af5c4d453cb4d710c6ca80ed476198ac49dd9d49a8a2051dbaf99f86cf.js"></script>
+    </div><!-- #page -->
+    <a id="back-to-top" href="#" class="show"><i class="ot-flaticon-left-arrow"></i></a>
+    <!-- jQuery -->
+    <script async type="text/javascript"
+        src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/395060af5c4d453cb4d710c6ca80ed476198ac49dd9d49a8a2051dbaf99f86cf.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/mousewheel.min.js"></script>
     <script src="js/lightgallery-all.min.js"></script>
@@ -622,14 +668,16 @@
     <script src="js/scripts.js"></script>
     <script src="js/royal_preloader.min.js"></script>
     <script>
-        window.jQuery = window.$ = jQuery;  
-        (function($) { "use strict";
+        window.jQuery = window.$ = jQuery;
+        (function ($) {
+            "use strict";
             //Preloader
             Royal_Preloader.config({
-                mode           :   'progress',
-                background     :   '#1a1a1a',
+                mode: 'progress',
+                background: '#1a1a1a',
             });
         })(jQuery);
-    </script>  
+    </script>
 </body>
+
 </html>
