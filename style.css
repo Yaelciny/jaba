@@ -11411,6 +11411,12 @@ ol.style-default li:last-child {
   padding-bottom: 42px;
 }
 
+.services-detail-content .simple-slide .item img {
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
+
 .services-detail-content .detail-img {
   padding-top: 20px;
   margin-bottom: 80px;
