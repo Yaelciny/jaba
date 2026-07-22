@@ -32,6 +32,26 @@
             z-index: 999;
         }
     </style>
+    <style>
+        /* Corregir imágenes volteadas/rotadas en la galería de proyectos */
+        .projects-thumbnail img {
+            image-orientation: from-image;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            transform: rotate(0deg) !important;
+        }
+        /* Asegurar tamaño uniforme en sliders de proyectos */
+        .projects-thumbnail {
+            overflow: hidden;
+            position: relative;
+        }
+        .projects-thumbnail img {
+            width: 100%;
+            object-fit: cover;
+            object-position: center top;
+        }
+    </style>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -709,144 +729,7 @@
 
 
 
-        <!-- ========================================================================================= -->
-        <!-- =============================== SECCIÓN DE CONTENIDO                                    =============================== -->
-        <!-- ========================================================================================= -->
-        <section class="our-portfolio-slide">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center theratio-align-center">
-                        <div class="ot-heading is-dots">
-                            <span>[ PROYECTOS ]</span>
-                            <h2 class="main-heading">FACHADAS</h2>
-                        </div>
-                        <div class="space-40"></div>
-                        <div class="project-slider projects-grid style-1 img-scale m-0 owl-theme owl-carousel">
-                            <div class="project-items category-19 ">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-23.webp"
-                                            alt="Fachada moderna de aluminio y vidrio">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-14 ">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-12.webp"
-                                            alt="Fachada residencial contemporánea">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-15 ">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-4.webp"
-                                            alt="Fachada con ventanales de piso a techo">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-20 ">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-21.webp"
-                                            alt="Fachada de casa moderna con aluminio">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-19 ">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-9.webp"
-                                            alt="Fachada arquitectónica con cristal templado">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-14 ">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-18.webp"
-                                            alt="Fachada minimalista con acabados premium">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-15">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-10.webp"
-                                            alt="Fachada de edificio con muro cortina">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-14">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-3.webp"
-                                            alt="Fachada moderna con herrería de aluminio">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-19">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-16.webp"
-                                            alt="Fachada residencial con detalles en aluminio">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-15">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-22.webp"
-                                            alt="Fachada vanguardista con amplios ventanales">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-14">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-17.webp"
-                                            alt="Fachada moderna de dos niveles">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-20">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-19.webp"
-                                            alt="Diseño de fachada con cristal">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-19">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/fachadas-24.webp"
-                                            alt="Fachada exterior con cancelería premium">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-14">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/Fachadas 1.webp"
-                                            alt="Diseño de fachada exterior">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-items category-15">
-                                <div class="projects-box">
-                                    <div class="projects-thumbnail">
-                                        <img src="images/proyectos/fachadas/Fachadas 2.webp"
-                                            alt="Diseño de fachada exterior">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- SECCIÓN FACHADAS ELIMINADA -->
         <!-- =============================== FIN: SECCIÓN DE CONTENIDO                               =============================== -->
 
 
@@ -1476,9 +1359,15 @@
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
                         <div class="widget-footer widget-contact">
-                            <h6>Nuestos Servicios</h6>
+                            <h6>Servicios</h6>
                             <ul>
                                 <li><a href="quienessomos.html">Quiénes Somos</a></li>
+                                <li><a href="proyecto.html">Proyectos</a></li>
+                                <li><a href="soluciones.html">Soluciones</a></li>
+                                <li><a href="contact.html">Contacto</a></li>
+                            </ul>
+                            <h6 style="margin-top:20px;">Productos</h6>
+                            <ul>
                                 <li><a href="ventanasypuertas.html">Ventanas</a></li>
                                 <li><a href="puertascorredizas.html">Puertas</a></li>
                                 <li><a href="domos.html">Domos</a></li>
@@ -1488,8 +1377,6 @@
                                 <li><a href="divisiones.html">Divisiones de oficina</a></li>
                                 <li><a href="sistemasdecristaltemplado.html">Sistemas de cristal templado</a></li>
                                 <li><a href="puertasabatibles.html">Puertas abatibles</a></li>
-                                <li><a href="soluciones.html">Soluciones</a></li>
-                                <li><a href="contact.html">Contacto</a></li>
                             </ul>
                         </div>
                     </div>

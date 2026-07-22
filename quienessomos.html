@@ -32,6 +32,23 @@
             object-position: center;
             display: block;
         }
+
+        /* ── Fix cards flip: el texto del overlay trasero no se desborde ── */
+        .support-box .overlay {
+            overflow: hidden;
+            padding: 12px 20px !important;
+            box-sizing: border-box;
+        }
+        .support-box .overlay .inner {
+            overflow-y: auto;
+            max-height: 100%;
+        }
+        .support-box .overlay .inner p {
+            font-size: 13px;
+            line-height: 1.6;
+            margin: 0;
+            word-wrap: break-word;
+        }
     </style>
     <style>
         .btn-tel {
@@ -436,7 +453,7 @@
 
 
         <!-- ========================================================================================= -->
-        <!-- =============================== SECCIÓN: NOSOTROS / ACERCA DE                           =============================== -->
+        <!-- =============================== SECCIÓN: TRABAJOS RESIDENCIALES                          =============================== -->
         <!-- ========================================================================================= -->
         <section class="about-team">
             <div class="container-fluid">
@@ -444,8 +461,9 @@
                     <div class="col-lg-12 text-center">
                         <div class="ot-heading is-dots">
                             <span>Soluciones Jaba</span>
-                            <h2 class="main-heading">Trabajos Recientes</h2>
+                            <h2 class="main-heading">Trabajos Residenciales</h2>
                         </div>
+                        <p class="text-center mb-4">Conoce algunos de nuestros proyectos residenciales. <a href="proyecto.html" style="color:inherit; text-decoration:underline;">Ver todos los proyectos &rarr;</a></p>
                     </div>
                 </div>
                 <div class="row">
@@ -453,18 +471,13 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/ventanas/2.jpg" alt="Ventanas de aluminio">
+                                    <img src="images/proyectos/fachadas/fachadas-4.webp" alt="Fachada residencial moderna">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
-                                            <h4 class="m_name"><a href="ventanasypuertas.html">Ventanas</a></h4>
-                                            <div class="team-social flex-middle">
-
-
-                                            </div>
+                                            <h4 class="m_name"><a href="proyecto.html">Fachadas</a></h4>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -472,19 +485,13 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/proyectos/puertas/puerts-y-ventanas-21.jpg"
-                                        alt="Puertas de aluminio">
+                                    <img src="images/proyectos/puertas/puerts-y-ventanas-25.webp" alt="Ventanas y puertas residenciales">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
-                                            <h4 class="m_name"><a href="ventanasypuertas.html">Puertas</a></h4>
-                                            <div class="team-social flex-middle">
-
-
-                                            </div>
+                                            <h4 class="m_name"><a href="proyecto.html">Puertas y Ventanas</a></h4>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -492,18 +499,13 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/proyectos/canceles/canceles-baño.jpg" alt="Canceles de baño">
+                                    <img src="images/proyectos/canceles/canceles-de-banio-9.webp" alt="Canceles de baño modernos">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
-                                            <h4 class="m_name"><a href="cancelesdebaño.html">Canceles de baño </a></h4>
-                                            <div class="team-social flex-middle">
-
-
-                                            </div>
+                                            <h4 class="m_name"><a href="proyecto.html">Canceles de Baño</a></h4>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -511,18 +513,13 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/proyectos/domos/domos-2.jpg" alt="Domos de cristal templado">
+                                    <img src="images/proyectos/domos/domos-8.webp" alt="Domos de cristal templado">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
-                                            <h4 class="m_name"><a href="domos.html">Domos</a></h4>
-                                            <div class="team-social flex-middle">
-
-
-                                            </div>
+                                            <h4 class="m_name"><a href="proyecto.html">Domos</a></h4>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -530,28 +527,22 @@
                         <div class="team-item">
                             <div class="team-wrap">
                                 <div class="team-thumb">
-                                    <img src="images/proyectos/fachadas/fachadas-10.jpg" alt="Fachadas integrales">
+                                    <img src="images/proyectos/pasamanos/pasamanos-16.webp" alt="Pasamanos de vidrio templado">
                                 </div>
                                 <div class="team-text-overlay">
                                     <div class="team-info dtable">
                                         <div class="dcell">
-                                            <h4 class="m_name"><a href="fachadasintegrales.html">Fachadas</a></h4>
-                                            <div class="team-social flex-middle">
-
-
-                                            </div>
+                                            <h4 class="m_name"><a href="proyecto.html">Pasamanos</a></h4>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
-        <!-- =============================== FIN: SECCIÓN DE CONTENIDO                               =============================== -->
+        <!-- =============================== FIN: SECCIÓN TRABAJOS RESIDENCIALES                     =============================== -->
 
 
 
@@ -606,9 +597,15 @@
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
                         <div class="widget-footer widget-contact">
-                            <h6>Nuestos Servicios</h6>
+                            <h6>Servicios</h6>
                             <ul>
                                 <li><a href="quienessomos.html">Quiénes Somos</a></li>
+                                <li><a href="proyecto.html">Proyectos</a></li>
+                                <li><a href="soluciones.html">Soluciones</a></li>
+                                <li><a href="contact.html">Contacto</a></li>
+                            </ul>
+                            <h6 style="margin-top:20px;">Productos</h6>
+                            <ul>
                                 <li><a href="ventanasypuertas.html">Ventanas</a></li>
                                 <li><a href="puertascorredizas.html">Puertas</a></li>
                                 <li><a href="domos.html">Domos</a></li>
@@ -618,8 +615,6 @@
                                 <li><a href="divisiones.html">Divisiones de oficina</a></li>
                                 <li><a href="sistemasdecristaltemplado.html">Sistemas de cristal templado</a></li>
                                 <li><a href="puertasabatibles.html">Puertas abatibles</a></li>
-                                <li><a href="soluciones.html">Soluciones</a></li>
-                                <li><a href="contact.html">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
