@@ -8268,7 +8268,7 @@ section {
 
 /* Quiénes Somos */
 .pheader-about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-10.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-10.jpg);
 }
 
 /* Soluciones */
@@ -8283,47 +8283,47 @@ section {
 
 /* Canceles de Baño */
 .pheader-canceles {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-16.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-16.JPG);
 }
 
 /* Divisiones de Oficina */
 .pheader-divisiones {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-17.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-17.JPG);
 }
 
 /* Domos */
 .pheader-domos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-18.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-18.jpg);
 }
 
 /* Fachadas Integrales */
 .pheader-fachadas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-22.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-22.JPG);
 }
 
 /* Pergolados */
 .pheader-pergolados {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-23.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-23.JPG);
 }
 
 /* Puertas Corredizas */
 .pheader-puertas-corredizas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-24.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-16.jpg);
 }
 
 /* Puertas Abatibles */
 .pheader-abatibles {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-3.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-12.jpg);
 }
 
 /* Ventanas y Puertas */
 .pheader-ventanas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-4.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachadas-4.JPG);
 }
 
 /* Sistemas de Cristal Templado */
 .pheader-cristal {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/sistema-cristal-templado/cristal-templado-1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Sistema/cristal-2.jpg);
 }
 
 .pheader-process {
