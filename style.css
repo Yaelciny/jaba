@@ -2537,7 +2537,7 @@ a:active {
 --------------------------------------------------------------*/
 .page-header {
   width: 100%;
-  height: 500px;
+  height: 650px;
   color: #fff;
   font-family: "Titillium Web", sans-serif;
   font-weight: 500;
@@ -2599,9 +2599,9 @@ a:active {
 
 .page-title {
   color: #fff;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 300;
-  margin-top: 75px;
+  margin-top: 150px;
   margin-bottom: 10px;
 }
 
@@ -2617,11 +2617,11 @@ a:active {
 
 @media (max-width: 1024px) {
   .page-header {
-    height: 400px;
+    height: 500px;
   }
 
   .page-title {
-    font-size: 42px;
+    font-size: 60px;
   }
 }
 
@@ -8273,12 +8273,12 @@ section {
 
 /* Soluciones */
 .pheader-services {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-9.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachada-2.jpg);
 }
 
 /* Proyectos */
 .pheader-portfolio {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/proyectos/fachadas/fachadas-19.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(assets/Fachadas/fachada-1.jpg);
 }
 
 /* Canceles de Baño */
